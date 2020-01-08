@@ -1,0 +1,73 @@
+/* General Styling */
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   overflow-x: hidden;
+}
+
+.mmmm span,
+.body-container span {
+   font-size: 40px;
+   font-weight: 500;
+
+}
+
+.mmmm span:last-of-type,
+.body-container span:last-of-type {
+   font-size: 21px;
+   font-weight: 100;
+   display: inline-block;
+   padding-top: 1.5em;
+}
+
+
+
+/* Navbar Styling */
+nav a {
+   text-decoration: none;
+}
+
+/* Header Styling */
+
+header span {
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 1;
+}
+
+header span:nth-child(3) {
+   font-size: 21px;
+   font-weight: 100;
+   line-height: normal;
+}
+
+
+/* Footer Styling */
+footer {
+   background-color: white;
+   color: rgb(37, 36, 37);
+}
+
+
+footer .col-4 .text-center {
+   background-color: rgb(26, 25, 25);
+   color: blanchedalmond;
+   margin-bottom: 12px;
+   width: 189px;
+   height: 60px;
+   border-radius: 100px;
+   border: 1px solid black;
+}
+
+footer .col-4 .text-center a {
+   color: whitesmoke;
+   text-decoration: none;
+}
+
+footer .col-4 .text-center a:hover {
+   color: rgb(94, 151, 216);
+}
